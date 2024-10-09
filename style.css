@@ -1,0 +1,83 @@
+*{
+margin: 0%;
+padding: 0%;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+box-sizing: border-boxs;
+}
+nav {
+    background-color: #fdcc04;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    padding: 0 40px; 
+}
+
+.logo {
+    color: black;
+    font-style: italic;
+    font-size: xx-large;
+}
+
+.nav a {
+    text-decoration: none;
+    color: black;
+    margin-left: 60px; 
+    font-size: larger;
+    padding: 0 50px;
+    
+
+}
+
+
+section {
+    display: flex;
+    padding: 50px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fdcc04;
+    height: 100%; 
+    box-sizing: border-box;
+}
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; /* Align items at the top */
+    height: 75%; 
+}
+
+    
+button {
+    color: #fdcc04;
+    background-color: black;
+    margin-top: 80px;
+    border: none;
+    cursor: pointer;
+    font-size: 25px;
+    padding: 15px 30px; /* Adjust padding to increase button size */
+    border-radius: 50px; /* Adjust to round the edges */
+}
+button:hover{
+    color: black;
+    background-color: #fdcc04;
+}
+
+.content h1 {
+    padding-top: 0%;
+    font-size: 50px;/* Adjust the top margin as needed */
+    margin-bottom: 30px; /* Space between title and paragraph */
+}
+.content p {
+    line-height: 1.5em; 
+    font-size: 40px;
+    width: 570px;
+}
+.image img {
+    width: 730px; 
+    height: auto; 
+}
+
+.nav a:hover {
+    color: white;
+  
+}
